@@ -13,3 +13,24 @@
 
 => Create Salesman_master : 
 -- create table salesman_master(salesmanno varchar(6), salesmanname varchar(20), address1 varchar(30), address2 varchar(30), city varchar(20), pincode int, state varchar(20), salant int, tgttoget int, ytdsales int, remarks varchar(60));
+=> Insert Data :
+-- insert into salesman_master values("S00001", "Aman", "A/14", "Worli", "Mumbai", "400002", "Maharashtra", 3000, 100, 50, "Good"), ("S00002", "Omkat", "65", "Nariman", "Mumbai", "400001", "Maharashtra", 3000, 200, 100, "Good"), ("S00003", "Raj", "P-7", "Bandra", "Mumbai", "400032", "Maharashtra", 3000, 200, 100, "Good"),
+-- ("S00004", "Ashish", "A/5", "Juhu", "Mumbai", "400044", "Maharashtra", 3500, 200, 150, "Good");
+
+
+* Exercise on retrieving records from a table :
+
+a. Find out the names of all the clients.
+b. Retrieve the entire contents of the Client_master table.
+c. Retrieve the list of names, city and the state of all the clients.
+d. List the various products available from the Product_master table.
+e. List all the clients who are located in Mumbai.
+f. Find the names of salesmen who have a salary equal to Rs.3000.
+
+
+* Exercise on updating records in a table :
+
+a. Change the city of ClientNo 'C00005' to 'Bangalore'.
+b. Change the BalDue of ClientNo 'C00001' to Rs.1000.
+c. Change the cost price of 'Trousers' to Rs.950.00.
+d. Change the city of the salesman to Pune.
