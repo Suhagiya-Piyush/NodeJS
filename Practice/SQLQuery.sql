@@ -11,7 +11,7 @@ select * from employees where officeCode >= 2 and jobTitle != "Sales Rep";
 select * from customers where country != "USA";
 
 -- 5. Fetch & display customers details(Customers table)  having customer number not in the range 150 to 200
--> select * from customers where customerNumber < 150 or customerNumber > 200;
+select * from customers where customerNumber < 150 or customerNumber > 200;
 select * from customers where customerNumber not between 150 and 200;
 
 -- 6. List out last name, first name for all employees and rename  last name as “Name of the employee”, display as sorting order of their last name
